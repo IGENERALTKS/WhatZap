@@ -5,3 +5,9 @@ npm install -g eas-cli
 npx expo install expo-dev-client
 
 eas login
+
+eas build --profile development --platform android
+
+eas credentials 
+>android
+>development
